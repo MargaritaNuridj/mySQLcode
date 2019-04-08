@@ -1,0 +1,39 @@
+Given a 5 gallin jar and a four gallon jar. Need to reach 2 gallons of water in a four gallon jar.
+1. Jar b is 5 gallon jar initially empty 0, Jar a is intitially 4 gallon is initially empty.
+ First you fill up the five gallon jar fully. Use FILL.
+ Then you pour the five gallon in the four gallon jar. Filling jar A
+Pour(0,5)
+Pour(4,1)
+Empty jar a
+Pour(0,1)
+Fill jar a
+Pour(4,1)
+Spill out jar a
+Pour(0,1)
+Pour(1,0)
+Fill jar b
+Pour(1,5)
+Pour(4,2)
+Spill jar a
+Pour(0,2)
+Pour(2,0)
+
+
+2.
+
+Pour(0,9)
+Pour(8,1)
+Empty jar a
+Pour(0,1)
+Pour(1,0)
+Fill jar b
+Pour(1,9)
+Pour(8,2)
+Spill out jar a
+Pour(0,2)
+Pour(2,0)
+Fill jar b
+Pour(2,9)
+Pour(8,3)
+Pour(0,3)
+Pour(3,0)
